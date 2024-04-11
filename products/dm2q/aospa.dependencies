@@ -1,0 +1,70 @@
+[
+    {
+        "remote":       "github",
+        "repository":   "samsung-sm8550-aospa/android_device_samsung_sm8550-common",
+        "target_path":  "device/samsung/sm8550-common",
+        "revision":     "uvite"
+    },
+    {
+        "remote":       "github",
+        "repository":   "samsung-sm8550-aospa/android_device_samsung_dm2q",
+        "target_path":  "device/samsung/dm2q",
+        "revision":     "uvite"
+    },
+    {
+        "remote":       "github",
+        "repository":   "samsung-sm8550-aospa/android_device_samsung_dm2q-kernel",
+        "target_path":  "device/samsung/dm2q-kernel",
+        "revision":     "uvite"
+    },
+    {
+        "remote":       "github",
+        "repository":   "samsung-sm8550-aospa/android_hardware_qcom_audio",
+        "target_path":  "vendor/qcom/opensource/audio-hal/primary-hal",
+        "revision":     "uvite-8550-new"
+    },
+    {
+        "remote":       "github",
+        "repository":   "samsung-sm8550-aospa/android_vendor_qcom_opensource_arpal-lx",
+        "target_path":  "vendor/qcom/opensource/pal",
+        "revision":     "uvite-8550-new"
+    },
+    {
+        "remote":       "github",
+        "repository":   "samsung-sm8550-aospa/android_vendor_qcom_opensource_agm",
+        "target_path":  "vendor/qcom/opensource/agm",
+        "revision":     "uvite-8550-new"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_display",
+        "target_path":  "hardware/qcom/display",
+        "revision":     "uvite-8550"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_gps",
+        "target_path":  "hardware/qcom/gps",
+        "revision":     "uvite-8550"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_media",
+        "target_path":  "hardware/qcom/media",
+        "revision":     "uvite-8550"
+    },
+    {
+        "remote":       "github",
+        "repository":   "samsung-sm8550-aospa/android_vendor_samsung_sm8550-common",
+        "target_path":  "vendor/samsung/sm8550-common",
+        "revision":     "uvite",
+        "clone-depth":  "1"
+    },
+    {
+        "remote":       "github",
+        "repository":   "samsung-sm8550-aospa/android_vendor_samsung_dm2q",
+        "target_path":  "vendor/samsung/dm2q",
+        "revision":     "uvite",
+        "clone-depth":  "1"
+    }
+]
