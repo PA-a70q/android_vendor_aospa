@@ -16,6 +16,8 @@ $(call inherit-product, device/samsung/a70q/device.mk)
 # Inherit from the AOSPA configuration.
 $(call inherit-product, vendor/aospa/target/product/aospa-target.mk)
 
+TARGET_DISABLES_GMS := true
+
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
